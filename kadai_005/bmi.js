@@ -4,5 +4,9 @@ let weight = 68;
 //身長を代入
 let height = 1.7;
 
-//bmi計算式
-console.log (weight/(height*height));
+//bmi
+let bmi = weight / (height * height);
+
+//bmi計算結果を出力
+console.log(bmi);
+
